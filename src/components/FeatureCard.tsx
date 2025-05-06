@@ -1,6 +1,5 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import Icon from "@/components/ui/Icon";
+import Icon from "@/components/ui/icon";
 
 interface FeatureCardProps {
   title: string;

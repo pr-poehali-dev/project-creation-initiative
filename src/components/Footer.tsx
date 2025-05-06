@@ -1,6 +1,5 @@
-
 import { Link } from "react-router-dom";
-import Icon from "@/components/ui/Icon";
+import Icon from "@/components/ui/icon";
 
 const Footer = () => {
   return (
@@ -63,7 +62,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>© {new Date().getFullYear()} Dota 2 Академия. Все права защищены.</p>
+          <p> {new Date().getFullYear()} Dota 2 Академия. Все права защищены.</p>
           <p className="mt-2 text-sm">Dota 2 является товарным знаком Valve Corporation. Этот сайт не связан с Valve Corporation.</p>
         </div>
       </div>
